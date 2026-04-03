@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
 
     try {
-      const response = await fetch('backendtest2-drd9aac8e8hxakgb.japaneast-01.azurewebsites.net/chat', {
+      const response = await fetch('https://backendtest2-drd9aac8e8hxakgb.japaneast-01.azurewebsites.net/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
